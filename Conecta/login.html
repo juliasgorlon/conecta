@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar — Conecta</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%232563eb'/%3E%3Cpath d='M67 30H48a20 20 0 000 40h19' fill='none' stroke='white' stroke-width='11' stroke-linecap='round'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="login-pagina">
+    <div class="login-container">
+        <div class="login-marca">
+            <img src="assets/logo-conecta.svg" alt="Conecta">
+        </div>
+
+        <section class="login-caixa">
+            <h1>Entrar no Conecta</h1>
+            <p>Acesse o portal acadêmico para acompanhar suas informações.</p>
+
+            <form class="login-form" onsubmit="event.preventDefault(); window.location.href='index.html';">
+                <div class="login-campo">
+                    <label for="loginEmail">E-mail</label>
+                    <input type="email" id="loginEmail" placeholder="seu e-mail" required>
+                </div>
+
+                <div class="login-campo">
+                    <label for="loginSenha">Senha</label>
+                    <input type="password" id="loginSenha" placeholder="Sua senha" required>
+                </div>
+
+                <div class="login-acoes">
+                    <button class="login-botao" type="submit">Entrar</button>
+                </div>
+            </form>
+
+            <p class="login-ajuda">Acesso demonstrativo do protótipo acadêmico.</p>
+        </section>
+
+        <p class="login-rodape">Conecta • Protótipo acadêmico em HTML, CSS e JavaScript</p>
+    </div>
+</main>
+</body>
+</html>
