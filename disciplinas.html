@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disciplinas — Conecta</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%232563eb'/%3E%3Cpath d='M67 30H48a20 20 0 000 40h19' fill='none' stroke='white' stroke-width='11' stroke-linecap='round'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header>
+    <a class="logo" href="../index.html"><img src="../assets/logo-conecta.svg" alt=""><span>Conecta</span></a>
+    <nav aria-label="Navegação principal">
+        <a class="nav-btn nav-link" href="../index.html">Início</a>
+        <a class="nav-btn nav-link" href="comunicados.html">Comunicados</a>
+        <a class="nav-btn nav-link" href="documentos.html">Documentos</a>
+        <a class="nav-btn nav-link" href="agenda.html">Agenda</a>
+        <a class="nav-btn nav-link ativo" href="disciplinas.html">Disciplinas</a>
+        <a class="nav-btn nav-link" href="feed.html">Feed</a>
+    </nav>
+    <div class="usuario">
+        <button id="btnNotificacoes" class="icone-btn sino" aria-label="Notificações"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"/></svg><b>1</b></button>
+        <button id="btnPerfil" class="usuario-resumo" aria-label="Perfil de João Silva"><span class="usuario-icone">JS</span></button>
+        <button id="btnSair" class="sair-btn" aria-label="Sair"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 17l5-5-5-5M15 12H3M14 3h5a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-5"/></svg></button>
+    </div>
+</header><main>
+    <section class="pagina ativa">
+        <div class="cabecalho-pagina">
+            <div>
+                <p class="subtitulo">2º TERMO • ADS</p>
+                <h1>Minhas disciplinas</h1>
+                <p class="descricao-pagina">Disciplinas, notas e faltas.</p>
+            </div>
+            <select class="seletor-semestre">
+                <option>2º semestre de 2026</option>
+            </select>
+        </div>
+
+        <div id="cardsDisciplinas" class="grade-disciplinas"></div>
+
+        <article class="caixa tabela-box">
+            <div class="titulo-caixa">
+                <div>
+                    <p class="subtitulo">ACOMPANHAMENTO</p>
+                    <h2>Notas e faltas</h2>
+                </div>
+                <span class="status-atualizado">Atualizado em 18/09</span>
+            </div>
+            <div class="tabela-scroll">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Disciplina</th>
+                            <th>Nota 1</th>
+                            <th>Nota 2</th>
+                            <th>Total de faltas</th>
+                            <th>Faltas permitidas</th>
+                            <th>Situação</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabelaNotas"></tbody>
+                </table>
+            </div>
+        </article>
+    </section>
+</main><footer>Conecta • Protótipo acadêmico em HTML, CSS e JavaScript</footer>
+<div id="mensagem" class="mensagem"></div>
+<div id="modal" class="modal escondido">
+    <div class="modal-caixa">
+        <button class="modal-fechar" onclick="fecharModal()">×</button>
+        <div id="modalConteudo"></div>
+    </div>
+</div>
+<script src="../script.js"></script>
+</body>
+</html>
