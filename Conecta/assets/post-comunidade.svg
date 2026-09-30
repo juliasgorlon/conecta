@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
-  <defs><linearGradient id="c" x2="1" y2="1"><stop stop-color="#064e3b"/><stop offset="1" stop-color="#059669"/></linearGradient></defs>
-  <rect width="1200" height="675" fill="url(#c)"/><circle cx="950" cy="240" r="170" fill="#6ee7b7" opacity=".18"/><circle cx="950" cy="240" r="95" fill="#a7f3d0" opacity=".18"/>
-  <path d="M900 240h100M950 190v100" stroke="#fff" stroke-width="28" stroke-linecap="round" opacity=".85"/>
-  <text x="100" y="500" fill="#fff" font-family="Arial" font-size="48" font-weight="700">AÇÃO NA COMUNIDADE</text>
-  <text x="100" y="558" fill="#d1fae5" font-family="Arial" font-size="24">Conhecimento e cuidado além dos espaços da organização</text>
-</svg>
