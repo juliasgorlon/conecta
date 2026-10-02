@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs><linearGradient id="a" x2="1" y2="1"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#2563eb"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#a)"/><circle cx="1040" cy="80" r="250" fill="#60a5fa" opacity=".18"/>
+  <path d="M110 160h78l35-52 35 52h470a28 28 0 0 1 28 28v246a28 28 0 0 1-28 28H138a28 28 0 0 1-28-28z" fill="#fff" opacity=".12"/>
+  <text x="110" y="530" fill="#fff" font-family="Arial" font-size="32" font-weight="700">COMUNICADO OFICIAL</text>
+  <text x="110" y="580" fill="#dbeafe" font-family="Arial" font-size="22">Informações importantes para toda a comunidade</text>
+</svg>
